@@ -1,5 +1,5 @@
 def check_winner(board, player_symbol):
-for row in board:
+  for row in board:
 if all(cell == player_symbol for cell in row):
 return True
 
